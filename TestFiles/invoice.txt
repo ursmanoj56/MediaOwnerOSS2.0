@@ -1,0 +1,8 @@
+Invoice
+
+Deal Name: One Plus Nord 5G
+Created By: shrikanthramachndran
+Date: 12 Jun 2023 - 01 Jul 2023
+Deal ID: E-2023-06123456000007
+
+Total Price: AUD $5,000
