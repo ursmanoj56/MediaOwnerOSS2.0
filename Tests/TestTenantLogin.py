@@ -25,7 +25,7 @@ class TestTenantLogin(BaseTest):
 
     def test_validate_loginFunction_withValid_credential(self):
         self.tenantlogin =TenantLogin(self.driver)
-        choosetemplate = self.tenantlogin.validate_loginFunction_withValid_credential("manoj", "admin@123")
+        choosetemplate = self.tenantlogin.validate_loginFunction_withValid_credential("")
         message =choosetemplate.get_current_url()
         assert message.__contains__("http://164.52.223.30:8001/mytemplate/")
 
